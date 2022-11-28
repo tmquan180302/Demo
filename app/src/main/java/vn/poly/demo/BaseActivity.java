@@ -1,6 +1,7 @@
 package vn.poly.demo;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -8,6 +9,7 @@ import android.os.Bundle;
 
 public abstract class BaseActivity extends AppCompatActivity {
     ProgressDialog dialog;
+    Toolbar toolbar;
 
     public void showLoading(){
         if (dialog!= null){
